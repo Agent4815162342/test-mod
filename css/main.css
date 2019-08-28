@@ -122,14 +122,20 @@ tr td span {
     position: relative;
     margin-left: 20px;
 }
-.switchCircle {
+.switchCircle, .movedCircle {
     width: 21px;
     height: 21px;
     background: white;
     border-radius: 50%; 
     position: absolute;
     top: 2px;
-    left: 1px;
+    cursor: pointer;
+}
+.switchCircle {
+    left: 2px;
+}
+.movedCircle {
+    left: 27px;    
 }
 
 
