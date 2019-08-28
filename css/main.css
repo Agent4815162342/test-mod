@@ -131,9 +131,6 @@ tr td span {
     top: 2px;
     left: 1px;
 }
-.movedCircle {
-    transform: translate(20px);    
-}
 
 
 @media (max-width: 1150px) {
@@ -141,12 +138,38 @@ tr td span {
         min-width: 60px;
     }
 }
-@media (max-width: 1150px) {
-    .table {
-        font-size: 6px !important;
+@media (max-width: 750px) {
+    table {
+        font-size: 8px;
     }
     tr th {
         min-width: 10px;
+    }
+}
+@media (max-width: 560px) {
+    table {
+        font-size: 7px;
+    }
+    .logo_title {
+        font-size: 18px;
+        margin-left: 40px;
+    }
+    .logo_title:before {
+        font-size: 50px;
+        top: -20px;
+        left: -40px;
+    }
+    .user {
+        margin-right: 50px; 
+    }
+    .user::after {
+        font-size: 50px;
+        top: -25%; 
+        left: 110%;           
+    }
+    .user::before {
+        font-size: 15px;
+        top: 25%;
     }
 }
  
